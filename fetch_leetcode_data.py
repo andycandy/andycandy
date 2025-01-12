@@ -43,7 +43,7 @@ def save_calendar(calendar, file_path="leetcode_calendar.json"):
         print(f"Error saving calendar: {e}")
 
 if __name__ == "__main__":
-    username = "your-username"  # Replace with your LeetCode username
+    username = "kasyapanand7"
     calendar_data = fetch_calendar(username)
     if calendar_data:
         save_calendar(calendar_data)
