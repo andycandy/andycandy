@@ -3,7 +3,6 @@ name: Update LeetCode Activity
 on:
   schedule:
     - cron: "0 0 * * *"
-  # Allow manual triggering
   workflow_dispatch:
 
 jobs:
@@ -21,6 +20,9 @@ jobs:
 
       - name: Install Dependencies
         run: pip install requests
+
+      - name: Debug - List Files
+        run: ls -R
 
       - name: Fetch LeetCode Calendar
         run: python fetch_leetcode_data.py
