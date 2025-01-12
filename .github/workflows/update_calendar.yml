@@ -1,0 +1,34 @@
+name: Update LeetCode Activity
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch LeetCode Calendar
+        run: python fetch_leetcode_data.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add leetcode_calendar.json
+          git commit -m "Update LeetCode calendar"
+          git push
