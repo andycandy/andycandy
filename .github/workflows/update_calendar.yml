@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests svgwrite
 
       - name: Debug - List Files
         run: ls -R
@@ -27,10 +27,13 @@ jobs:
       - name: Fetch LeetCode Calendar
         run: python fetch_leetcode_data.py
 
+      - name: Generate LeetCode Calendar SVG
+        run: python svg_generator.py
+
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          git add leetcode_calendar.json
-          git commit -m "Update LeetCode calendar"
+          git add leetcode_calendar.json leetcode_calendar.svg
+          git commit -m "Update LeetCode calendar and SVG"
           git push
