@@ -40,7 +40,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-          git pull
           git add leetcode_calendar.json leetcode_calendar.svg
           git commit -m "Update LeetCode calendar and SVG"
           git push
