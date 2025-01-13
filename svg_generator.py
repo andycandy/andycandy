@@ -15,7 +15,7 @@ def generate_calendar_svg(data_file="leetcode_calendar.json", output_file="leetc
     box_size = 12
     box_spacing = 2
     colors = {
-        0: "#ebedf0",
+        0: "#353839",
         1: "#fdecc8",
         2: "#fbc98a",
         3: "#FFA116",
