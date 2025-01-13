@@ -30,6 +30,12 @@ jobs:
       - name: Generate LeetCode Calendar SVG
         run: python svg_generator.py
 
+      - name: Update Repository to Latest
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git pull origin main
+
       - name: Commit and Push Changes
         run: |
           git config user.name "GitHub Actions Bot"
