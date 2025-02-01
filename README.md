@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **NestJs, AWS**
 
-- 👯 I’m looking to collaborate on [NostalgiaNet](https://nostalgia-net-client-code.vercel.app/)
+- 👯 I’m looking to collaborate on [NostalgiaNet](https://www.nostalgianet.me/)
 
 - 🤝 I’m looking for help with **Multisite Shopping**
 
