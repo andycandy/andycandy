@@ -2,48 +2,53 @@ import requests
 import json
 import time
 
-def fetch_calendar(username, year=None):
-    """Fetch the user's submission calendar from LeetCode."""
-    url = "https://leetcode.com/graphql"
-    query = """
-    query userProfileCalendar($username: String!, $year: Int) {
-      matchedUser(username: $username) {
-        userCalendar(year: $year) {
-          activeYears
-          streak
-          totalActiveDays
-          dccBadges {
-            timestamp
-            badge {
-              name
-              icon
-            }
-          }
-          submissionCalendar
-        }
+def fetch_calendar(username):
+  url = "https://leetcode.com/graphql"
+  query = """
+  query userProfileCalendar($username: String!, $year: Int) {
+    matchedUser(username: $username) {
+    userCalendar(year: $year) {
+      activeYears
+      streak
+      totalActiveDays
+      dccBadges {
+      timestamp
+      badge {
+        name
+        icon
       }
+      }
+      submissionCalendar
     }
-    """
-
-    variables = {
-        "username": username
     }
+  }
+  """
 
-    headers = {"Content-Type": "application/json"}
-    try:
-        response = requests.post(url, json={"query": query, "variables": variables}, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-        data = response.json()
+  variables = {
+    "username": username
+  }
 
-        if "errors" in data:
-            print(f"Error in GraphQL response: {data['errors']}")
-            return {}
+  payload = {
+    "query": query,
+    "variables": variables,
+    "operationName": "userProfileCalendar"
+  }
 
-        calendar = json.loads(data['data']['matchedUser']['userCalendar']['submissionCalendar'])
-        return calendar
-    except requests.exceptions.RequestException as e:
-        print(f"Request failed: {e}")
-        return {}
+  headers = {"Content-Type": "application/json"}
+  try:
+    response = requests.post(url, json=payload, headers=headers)
+    response.raise_for_status()
+    data = response.json()
+
+    if "errors" in data:
+      print(f"Error in GraphQL response: {data['errors']}")
+      return {}
+
+    calendar = json.loads(data['data']['matchedUser']['userCalendar']['submissionCalendar'])
+    return calendar
+  except requests.exceptions.RequestException as e:
+    print(f"Request failed: {e}")
+    return {}
 
 def save_calendar(calendar, file_path="leetcode_calendar.json"):
     """Save the formatted calendar to a JSON file."""
@@ -60,8 +65,7 @@ def save_calendar(calendar, file_path="leetcode_calendar.json"):
 
 if __name__ == "__main__":
     username = "kasyapanand7"
-    year = 2025  # You can change the year as needed
-    calendar_data = fetch_calendar(username, year)
+    calendar_data = fetch_calendar(username)
     if calendar_data:
         save_calendar(calendar_data)
     else:
