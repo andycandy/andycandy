@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=andycandy&label=Profile%20views&color=0e75b6&style=flat" alt="andycandy" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andycandy" alt="andycandy" /></a> </p>
-
 - 🔭 I’m currently working on **codexAI**
 
 - 🌱 I’m currently learning **NestJs, AWS**
@@ -16,6 +14,9 @@
 - 📫 How to reach me **kasyapanand7@gmail.com**
 
 - ⚡ Fun fact **If you say true after something stupid it becomes true, true;**
+
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andycandy" alt="andycandy" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
