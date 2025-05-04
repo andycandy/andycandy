@@ -32,13 +32,12 @@ This little pal hangs out here and updates based on my activity and your interac
 <details>
 <summary> Recent Pet Interactions </summary>
 
-<div><b>andycandy</b> gave me a treat 🍦 — 4 minutes ago</div>
-<div><b>andycandy</b> took me on an adventure 🗺️ — 10 minutes ago</div>
+<div><b>andycandy</b> took me on an adventure 🗺️ — 0 seconds ago</div>
+<div><b>andycandy</b> gave me a treat 🍦 — 8 minutes ago</div>
+<div><b>andycandy</b> took me on an adventure 🗺️ — 13 minutes ago</div>
 <div><b>
 andy</b> fed me 🍎 — 2 hours ago</div>
 <div><b>andycandy</b> gave me a treat 🍦 — 4 hours ago</div>
-<div><b>
-andy</b> fed me 🍎 — 5 hours ago</div>
 
 </details>
 
