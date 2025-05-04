@@ -1,0 +1,45 @@
+name: Pet Action Trigger
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  handle_pet_action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+          
+      - name: Install Dependencies
+        run: pip install requests
+        
+      
+      - name: Run pet action script
+        run: |
+          python ./scripts/pet_action.py "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}"
+          
+      - name: update state
+        run: |
+          python update_state.py
+       
+      - name: Commit GIF changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "State update"
+          git push
+          
+      - name: Close the issue
+        run: |
+          curl -s -X PATCH \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }} \
+            -d '{"state":"closed"}'

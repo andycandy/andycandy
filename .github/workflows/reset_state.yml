@@ -1,0 +1,34 @@
+name: Reset Pet Idle
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  reset_to_idle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - run: pip install requests
+
+      - name: Reset if timeout passed
+        run: python scripts/reset_to_idle.py
+
+      - name: Update README
+        run: python update_state.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-reset to idle" || echo "No changes to commit"
+          git push
