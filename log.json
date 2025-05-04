@@ -40,5 +40,11 @@
     "action": "TAKE_ON_ADVENTURE",
     "timestamp": "2025-05-04T10:16:01.623128Z",
     "timeout": 7200
+  },
+  {
+    "user": "manku6636s",
+    "action": "TAKE_ON_ADVENTURE",
+    "timestamp": "2025-05-04T10:17:52.036658Z",
+    "timeout": 7200
   }
 ]
