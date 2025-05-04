@@ -30,10 +30,28 @@ This little pal hangs out here and updates based on my activity and your interac
     <details>
       <summary> Recent Pet Interactions </summary>
         <!-- ACTION_LOG_START -->
-        
-  <div style="color: red">andycandy gave me a treat — 3 hours ago</div>
-  <div>
-        <!-- ACTION_LOG_END -->
+
+<details>
+<summary> Recent Pet Interactions </summary>
+
+
+        <svg fill="none" viewBox="0 0 500 200" width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+        <foreignObject width="100%" height="100%">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%; overflow-y:auto; box-sizing:border-box; font-size: 14px; line-height: 1.5; color: #333;">
+            <div class="log-entry-item"><div>**andycandy** took me on an adventure 🗺️ — 0 seconds ago</div></div>
+<div class="log-entry-item"><div>**
+andy** fed me 🍎 — 2 hours ago</div></div>
+<div class="log-entry-item"><div>**andycandy** gave me a treat 🍦 — 4 hours ago</div></div>
+<div class="log-entry-item"><div>**
+andy** fed me 🍎 — 5 hours ago</div></div>
+            </div>
+        </foreignObject>
+        </svg>
+    
+
+</details>
+
+<!-- ACTION_LOG_END -->
     </details>
   </div>
 </div>
