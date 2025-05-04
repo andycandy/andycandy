@@ -52,5 +52,11 @@
     "action": "FEED_PET",
     "timestamp": "2025-05-04T10:18:39.583767Z",
     "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "FEED_PET",
+    "timestamp": "2025-05-04T10:18:51.885418Z",
+    "timeout": 1800
   }
 ]
