@@ -54,43 +54,21 @@ def describe_action(entry):
 
     return f"**{user}** {description}"
 
+
 def format_entries(log):
-    log_entries_html = []
+    lines = []
     count = 0
     for entry in reversed(log):
         desc = describe_action(entry)
         if desc is None:
             continue  # skip IDLE actions
         ago = time_ago(entry["timestamp"])
-        log_entries_html.append(f'<div class="log-entry-item">{f"<div>{desc} — {ago}</div>"}</div>')
+        lines.append(f"<div>{desc} — {ago}</div>")
         count += 1
         if count == 5:
             break
-    
-    inner_html_content = "\n".join(log_entries_html)
+    return "\n".join(lines)
 
-    # Define the CSS styles within the <style> tag
-
-    # Note: :last-child might not work reliably in foreignObject CSS.
-
-    # Construct the full SVG with foreignObject and embedded HTML/CSS
-    # Adjust viewBox, width, height as needed to fit your desired display size
-    # The foreignObject should match the size of the SVG or its container.
-    # We need to wrap the inner HTML content in a div *inside* the foreignObject
-    # to apply the styles defined in the <style> block.
-    # Added basic inline styles to the inner container div for overflow, font, etc.
-    svg_content = f"""
-        <svg fill="none" viewBox="0 0 500 200" width="500" height="200" xmlns="http://www.w3.org/2000/svg">
-        <foreignObject width="100%" height="100%">
-            <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%; height:100%; overflow-y:auto; box-sizing:border-box; font-size: 14px; line-height: 1.5; color: #333;">
-            {inner_html_content}
-            </div>
-        </foreignObject>
-        </svg>
-    """
-    # Note: Escaped quotes in font-family for inline style
-
-    return svg_content
 
 def update_readme(formatted_html):
     collapsible = f"<details>\n<summary> Recent Pet Interactions </summary>\n\n{formatted_html}\n\n</details>"
