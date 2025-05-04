@@ -70,5 +70,11 @@
     "action": "IDLE",
     "timestamp": "2025-05-04T13:26:22.720835+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "GIVE_TREAT",
+    "timestamp": "2025-05-04T16:00:35.078916Z",
+    "timeout": 7200
   }
 ]
