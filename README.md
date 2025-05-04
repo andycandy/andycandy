@@ -27,8 +27,6 @@ This little pal hangs out here and updates based on my activity and your interac
 
 <div align="center">
   <div style="width:90%; max-width:500px; max-height:200px; overflow-y:auto; border:2px solid #ccc; border-radius:10px; padding:10px; background:#282c34; color: #abb2bf; font-family:monospace; font-size:14px; margin-top: 10px; text-align: left;">
-    <details>
-      <summary> Recent Pet Interactions </summary>
         <!-- ACTION_LOG_START -->
 
 <details>
@@ -45,7 +43,6 @@ andy** fed me 🍎 — 5 hours ago</div>
 </details>
 
 <!-- ACTION_LOG_END -->
-    </details>
   </div>
 </div>
 
