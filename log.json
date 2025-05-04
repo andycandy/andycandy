@@ -1,0 +1,26 @@
+[
+  {
+    "user": "\nandy",
+    "action": "FEED_PET",
+    "timestamp": "2025-05-04T04:15:25.070890Z",
+    "timeout": 0
+  },
+  {
+    "user": "system",
+    "action": "IDLE",
+    "timestamp": "2025-05-04T04:24:54.665231+00:00Z",
+    "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "GIVE_TREAT",
+    "timestamp": "2025-05-04T05:28:10.592635Z",
+    "timeout": 7200
+  },
+  {
+    "user": "\nandy",
+    "action": "FEED_PET",
+    "timestamp": "2025-05-04T07:40:18.292842Z",
+    "timeout": 1800
+  }
+]
