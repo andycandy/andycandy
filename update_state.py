@@ -52,7 +52,7 @@ def describe_action(entry):
     else:
         description = f"did something strange... 🤔"
 
-    return f"**{user}** {description}"
+    return f"<b>{user}</b> {description}"
 
 
 def format_entries(log):
