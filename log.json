@@ -28,5 +28,11 @@
     "action": "TAKE_ON_ADVENTURE",
     "timestamp": "2025-05-04T10:02:23.008320Z",
     "timeout": 7200
+  },
+  {
+    "user": "andycandy",
+    "action": "GIVE_TREAT",
+    "timestamp": "2025-05-04T10:07:46.065413Z",
+    "timeout": 7200
   }
 ]
