@@ -94,5 +94,11 @@
     "action": "IDLE",
     "timestamp": "2025-05-06T18:30:07.703597+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "FEED_PET",
+    "timestamp": "2025-05-10T09:05:13.567039Z",
+    "timeout": 1800
   }
 ]
