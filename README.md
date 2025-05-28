@@ -34,8 +34,8 @@ This little pal hangs out here and updates based on my activity and your interac
 
 <div><b>andycandy</b> took me on an adventure 🗺️ — 1 day ago</div>
 <div><b>andycandy</b> fed me 🍎 — 18 days ago</div>
-<div><b>andycandy</b> took me on an adventure 🗺️ — 21 days ago</div>
-<div><b>andycandy</b> gave me a treat 🍦 — 23 days ago</div>
+<div><b>andycandy</b> took me on an adventure 🗺️ — 22 days ago</div>
+<div><b>andycandy</b> gave me a treat 🍦 — 24 days ago</div>
 <div><b>andycandy</b> took me on an adventure 🗺️ — 24 days ago</div>
 
 </details>
