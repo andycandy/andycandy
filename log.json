@@ -118,5 +118,11 @@
     "action": "IDLE",
     "timestamp": "2025-05-27T16:48:48.052814+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "FEED_PET",
+    "timestamp": "2025-06-14T17:33:12.984179Z",
+    "timeout": 1800
   }
 ]
