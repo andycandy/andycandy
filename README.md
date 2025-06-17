@@ -9,7 +9,7 @@
 
 ### ✨ What's Cooking?
 
-*   🔭 Right now, most of my brainpower is going into **CodeNote**.
+*   🔭 Right now, most of my time is going into **Cookbook**.
 *   🌱 Trying to make sense of **Transformers and Open-source models** (wish me luck!).
 *   👯 If you're doing cool stuff like [NostalgiaNet](https://www.nostalgianet.me/), let's chat! Always interested in similar vibes.
 *   📫 Email's usually the quickest way: **kasyapanand7@gmail.com**
