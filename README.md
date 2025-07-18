@@ -32,8 +32,8 @@ This little pal hangs out here and updates based on my activity and your interac
 <details>
 <summary> Recent Pet Interactions </summary>
 
-<div><b>Aarchi-07</b> fed me 🍎 — 15 minutes ago</div>
-<div><b>andycandy</b> took me on an adventure 🗺️ — 15 minutes ago</div>
+<div><b>Aarchi-07</b> fed me 🍎 — 1 hour ago</div>
+<div><b>andycandy</b> took me on an adventure 🗺️ — 1 hour ago</div>
 <div><b>andycandy</b> fed me 🍎 — 2025-06-14</div>
 <div><b>andycandy</b> took me on an adventure 🗺️ — 2025-05-27</div>
 <div><b>andycandy</b> fed me 🍎 — 2025-05-10</div>
