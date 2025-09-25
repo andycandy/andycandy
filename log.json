@@ -148,5 +148,11 @@
     "action": "IDLE",
     "timestamp": "2025-07-18T21:22:15.685302+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "Aarchi-07",
+    "action": "GIVE_TREAT",
+    "timestamp": "2025-09-25T17:45:30.628344Z",
+    "timeout": 7200
   }
 ]
