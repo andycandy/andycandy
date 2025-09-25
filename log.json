@@ -154,5 +154,11 @@
     "action": "GIVE_TREAT",
     "timestamp": "2025-09-25T17:45:30.628344Z",
     "timeout": 7200
+  },
+  {
+    "user": "system",
+    "action": "IDLE",
+    "timestamp": "2025-09-25T21:17:33.770658+00:00Z",
+    "timeout": 1800
   }
 ]
