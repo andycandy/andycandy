@@ -178,5 +178,11 @@
     "action": "FEED_PET",
     "timestamp": "2025-10-18T18:40:21.956631Z",
     "timeout": 1800
+  },
+  {
+    "user": "Daman-io",
+    "action": "GIVE_TREAT",
+    "timestamp": "2025-10-18T18:40:48.032677Z",
+    "timeout": 7200
   }
 ]
