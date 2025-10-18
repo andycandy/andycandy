@@ -190,5 +190,11 @@
     "action": "TAKE_ON_ADVENTURE",
     "timestamp": "2025-10-18T18:42:26.539117Z",
     "timeout": 7200
+  },
+  {
+    "user": "system",
+    "action": "IDLE",
+    "timestamp": "2025-10-18T21:17:21.687152+00:00Z",
+    "timeout": 1800
   }
 ]
