@@ -184,5 +184,11 @@
     "action": "GIVE_TREAT",
     "timestamp": "2025-10-18T18:40:48.032677Z",
     "timeout": 7200
+  },
+  {
+    "user": "Daman-io",
+    "action": "TAKE_ON_ADVENTURE",
+    "timestamp": "2025-10-18T18:42:26.539117Z",
+    "timeout": 7200
   }
 ]
