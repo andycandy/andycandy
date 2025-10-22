@@ -196,5 +196,11 @@
     "action": "IDLE",
     "timestamp": "2025-10-18T21:17:21.687152+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "andycandy",
+    "action": "TAKE_ON_ADVENTURE",
+    "timestamp": "2025-10-22T06:50:44.832394Z",
+    "timeout": 7200
   }
 ]
