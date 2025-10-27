@@ -208,5 +208,11 @@
     "action": "IDLE",
     "timestamp": "2025-10-22T09:25:40.862567+00:00Z",
     "timeout": 1800
+  },
+  {
+    "user": "Daman-io",
+    "action": "TAKE_ON_ADVENTURE",
+    "timestamp": "2025-10-27T20:59:37.433496Z",
+    "timeout": 7200
   }
 ]
