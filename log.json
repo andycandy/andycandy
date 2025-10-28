@@ -214,5 +214,11 @@
     "action": "TAKE_ON_ADVENTURE",
     "timestamp": "2025-10-27T20:59:37.433496Z",
     "timeout": 7200
+  },
+  {
+    "user": "system",
+    "action": "IDLE",
+    "timestamp": "2025-10-28T01:43:37.625908+00:00Z",
+    "timeout": 1800
   }
 ]
