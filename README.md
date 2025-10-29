@@ -32,7 +32,7 @@ This little pal hangs out here and updates based on my activity and your interac
 <details>
 <summary> Recent Pet Interactions </summary>
 
-<div><b>Daman-io</b> took me on an adventure 🗺️ — 1 day ago</div>
+<div><b>Daman-io</b> took me on an adventure 🗺️ — 2 days ago</div>
 <div><b>andycandy</b> took me on an adventure 🗺️ — 7 days ago</div>
 <div><b>Daman-io</b> took me on an adventure 🗺️ — 11 days ago</div>
 <div><b>Daman-io</b> gave me a treat 🍦 — 11 days ago</div>
