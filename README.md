@@ -34,9 +34,9 @@ This little pal hangs out here and updates based on my activity and your interac
 
 <div><b>Daman-io</b> took me on an adventure 🗺️ — 6 days ago</div>
 <div><b>andycandy</b> took me on an adventure 🗺️ — 12 days ago</div>
-<div><b>Daman-io</b> took me on an adventure 🗺️ — 15 days ago</div>
-<div><b>Daman-io</b> gave me a treat 🍦 — 15 days ago</div>
-<div><b>Daman-io</b> fed me 🍎 — 15 days ago</div>
+<div><b>Daman-io</b> took me on an adventure 🗺️ — 16 days ago</div>
+<div><b>Daman-io</b> gave me a treat 🍦 — 16 days ago</div>
+<div><b>Daman-io</b> fed me 🍎 — 16 days ago</div>
 
 </details>
 
