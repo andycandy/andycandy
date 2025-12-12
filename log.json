@@ -226,5 +226,11 @@
     "action": "FEED_PET",
     "timestamp": "2025-12-12T05:32:54.697318Z",
     "timeout": 1800
+  },
+  {
+    "user": "system",
+    "action": "IDLE",
+    "timestamp": "2025-12-12T06:37:33.857313+00:00Z",
+    "timeout": 1800
   }
 ]
