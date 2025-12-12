@@ -32,11 +32,11 @@ This little pal hangs out here and updates based on my activity and your interac
 <details>
 <summary> Recent Pet Interactions </summary>
 
+<div><b>andycandy</b> fed me 🍎 — 0 seconds ago</div>
 <div><b>Daman-io</b> took me on an adventure 🗺️ — 2025-10-27</div>
 <div><b>andycandy</b> took me on an adventure 🗺️ — 2025-10-22</div>
 <div><b>Daman-io</b> took me on an adventure 🗺️ — 2025-10-18</div>
 <div><b>Daman-io</b> gave me a treat 🍦 — 2025-10-18</div>
-<div><b>Daman-io</b> fed me 🍎 — 2025-10-18</div>
 
 </details>
 
