@@ -43,20 +43,6 @@ My background blends frontier AI research with production-grade engineering. As 
 
 ---
 
-### 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=andycandy&show_icons=true&theme=radical&hide_border=true" height="180" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=andycandy&layout=compact&theme=radical&hide_border=true" height="180" alt="languages graph" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=andycandy&theme=radical&hide_border=true" alt="streak stats" />
-</div>
-
----
 
 ### Highlighted Contributions
 
