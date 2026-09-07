@@ -6,7 +6,7 @@
   </p>
   <p>IIT Bhubaneswar</p>
 
-  <a href="https://www.leetcode.com/kasyapanand7">
+  <a href="https://leetcode.com/u/onlyandy">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   <a href="mailto:YOUR_EMAIL_HERE">
